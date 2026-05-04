@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio Aqil Sulthan — Cloud Engineer dengan keahlian cloud infrastructure dan DevOps.">
+    <meta property="og:title" content="Aqil Sulthan — Portfolio">
+    <meta property="og:description" content="Cloud Engineer dengan keahlian cloud infrastructure dan DevOps.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aqilsulthan.github.io">
+    <meta property="og:image" content="assets/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☁</text></svg>">
+    <title>Aqil Sulthan — Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a href="#main" class="skip-link">Langsung ke konten utama</a>
+
+    <header role="banner">
+        <nav role="navigation" aria-label="Navigasi utama">
+            <a href="#" class="nav-logo" aria-label="Beranda">Aqil</a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Buka menu navigasi">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-menu" role="list">
+                <li><a href="#hero">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#proyek">Proyek</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main" role="main">
+
+        <section id="hero">
+            <h1>Halo, Saya <em>Aqil Sulthan</em></h1>
+            <p>Cloud Engineer | Infrastructure & DevOps</p>
+            <p>Membangun infrastruktur cloud yang scalable, reliable, dan secure untuk layanan kesehatan digital.</p>
+            <a href="#proyek" aria-label="Lihat proyek saya">Lihat Proyek Saya</a>
+            <a href="#kontak" aria-label="Hubungi saya">Hubungi Saya</a>
+        </section>
+
+        <section id="tentang" aria-labelledby="tentang-title">
+            <h2 id="tentang-title" class="section-title">Tentang Saya</h2>
+            <figure>
+                <img src="assets/foto_aqil.png" alt="Foto profil Aqil Sulthan — Cloud Engineer">
+                <figcaption>Aqil Sulthan</figcaption>
+            </figure>
+            <p>Saya adalah seorang Cloud Engineer dengan pengalaman dalam mengelola infrastruktur cloud menggunakan AWS,
+                Docker, dan Terraform. Saya percaya bahwa infrastruktur yang andal adalah fondasi utama dari sistem yang
+                aman dan tersedia 24/7.</p>
+            <blockquote>
+                <p>"Infrastruktur yang baik tidak terlihat — tetapi ketika rusak, semua orang merasakannya."</p>
+            </blockquote>
+        </section>
+
+        <section id="skills" aria-labelledby="skills-title">
+            <h2 id="skills-title" class="section-title">Skills & Keahlian</h2>
+            <article>
+                <h3>Cloud & Infrastructure</h3>
+                <ul>
+                    <li>AWS (EC2, S3, RDS, VPC)</li>
+                    <li>Docker & Kubernetes</li>
+                    <li>Terraform</li>
+                    <li>CI/CD (GitHub Actions)</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Backend & DevOps</h3>
+                <ul>
+                    <li>Linux Administration</li>
+                    <li>Node.js / Express</li>
+                    <li>PostgreSQL / MySQL</li>
+                    <li>Nginx & Reverse Proxy</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Monitoring & Tools</h3>
+                <ul>
+                    <li>Prometheus & Grafana</li>
+                    <li>Git & GitHub</li>
+                    <li>CloudWatch</li>
+                    <li>Agile / Scrum</li>
+                </ul>
+            </article>
+        </section>
+
+        <input type="radio" name="filter" id="filter-all" class="filter-input" checked>
+        <input type="radio" name="filter" id="filter-frontend" class="filter-input">
+        <input type="radio" name="filter" id="filter-backend" class="filter-input">
+        <input type="radio" name="filter" id="filter-fullstack" class="filter-input">
+
+        <section id="proyek" aria-labelledby="proyek-title">
+            <h2 id="proyek-title" class="section-title">Proyek Saya</h2>
+
+            <ul class="filter-tabs" role="tablist" aria-label="Filter kategori proyek">
+                <li role="none"><label for="filter-all" role="tab" aria-controls="proyek">Semua</label></li>
+                <li role="none"><label for="filter-frontend" role="tab" aria-controls="proyek">Frontend</label></li>
+                <li role="none"><label for="filter-backend" role="tab" aria-controls="proyek">Backend</label></li>
+                <li role="none"><label for="filter-fullstack" role="tab" aria-controls="proyek">Fullstack</label></li>
+            </ul>
+
+            <article data-category="fullstack">
+                <figure>
+                    <img src="assets/proyek-1.jpg" alt="Tampilan dashboard infrastruktur Cloud Health Monitor">
+                    <figcaption>Cloud Health Monitor</figcaption>
+                </figure>
+                <h3>Cloud Health Monitor</h3>
+                <p>Dashboard monitoring infrastruktur cloud real-time dengan visualisasi metrik server, notifikasi
+                    otomatis via Slack, dan alerting berbasis threshold.</p>
+                <ul>
+                    <li>AWS CloudWatch</li>
+                    <li>Terraform</li>
+                    <li>Grafana</li>
+                </ul>
+                <a href="https://github.com/aqilsulthan/cloud-health-monitor"
+                    aria-label="Lihat kode sumber Cloud Health Monitor di GitHub">Lihat Proyek</a>
+            </article>
+
+            <article data-category="fullstack">
+                <figure>
+                    <img src="assets/proyek-2.jpg" alt="Tampilan pipeline CI/CD AutoDeploy">
+                    <figcaption>AutoDeploy Pipeline</figcaption>
+                </figure>
+                <h3>AutoDeploy Pipeline</h3>
+                <p>Pipeline CI/CD otomatis menggunakan GitHub Actions dan Docker. Setiap push ke branch main otomatis
+                    build, test, dan deploy ke staging environment.</p>
+                <ul>
+                    <li>Docker</li>
+                    <li>GitHub Actions</li>
+                    <li>AWS ECR</li>
+                </ul>
+                <a href="https://github.com/aqilsulthan/autodeploy-pipeline"
+                    aria-label="Lihat kode sumber AutoDeploy Pipeline di GitHub">Lihat Proyek</a>
+            </article>
+
+            <article data-category="frontend">
+                <figure>
+                    <img src="assets/proyek-3.jpg" alt="Tampilan aplikasi Health Dashboard">
+                    <figcaption>Health Dashboard</figcaption>
+                </figure>
+                <h3>Health Dashboard</h3>
+                <p>Dashboard analitik untuk visualisasi data kesehatan — fitur registrasi, jadwal, riwayat, dan
+                    konsultasi online. Fokus pada performa dan aksesibilitas.</p>
+                <ul>
+                    <li>React.js</li>
+                    <li>Tailwind CSS</li>
+                    <li>Firebase</li>
+                </ul>
+                <a href="https://github.com/aqilsulthan/health-dashboard"
+                    aria-label="Lihat kode sumber Health Dashboard di GitHub">Lihat Proyek</a>
+            </article>
+
+        </section>
+
+        <section id="kontak" aria-labelledby="kontak-title">
+            <h2 id="kontak-title" class="section-title">Hubungi Saya</h2>
+            <form action="mailto:aqilsulthaan@gmail.com" method="POST" enctype="text/plain">
+                <fieldset>
+                    <legend>Form Kontak</legend>
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" name="nama" required placeholder="Masukkan nama Anda">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Masukkan email Anda">
+
+                    <label for="subjek">Subjek</label>
+                    <input type="text" id="subjek" name="subjek" required placeholder="Subjek pesan">
+
+                    <label for="pesan">Pesan</label>
+                    <textarea id="pesan" name="pesan" rows="5" required
+                        placeholder="Tulis pesan Anda di sini..."></textarea>
+
+                    <button type="submit" aria-label="Kirim pesan">Kirim Pesan</button>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; <time datetime="2026">2026</time> Aqil Sulthan. All rights reserved.</p>
+        <ul>
+            <li><a href="https://github.com/aqilsulthan" aria-label="GitHub Aqil Sulthan">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/aqilsulthan" aria-label="LinkedIn Aqil Sulthan">LinkedIn</a></li>
+            <li><a href="mailto:aqilsulthaan@gmail.com" aria-label="Kirim email ke Aqil Sulthan">Email</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
