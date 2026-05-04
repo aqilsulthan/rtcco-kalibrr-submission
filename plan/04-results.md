@@ -10,29 +10,31 @@
 
 ## Screenshot: Desktop
 
-![Desktop - Hero & Navigation](../assets/ss-web/ss-web-1.png)
+![Desktop - Hero](../assets/ss-web/ss-web-1.png)
 
-![Desktop - Tentang & Skills](../assets/ss-web/ss-web-2.png)
+![Desktop - Tentang Saya](../assets/ss-web/ss-web-2.png)
 
-![Desktop - Proyek & Filter](../assets/ss-web/ss-web-3.png)
+![Desktop - Skills](../assets/ss-web/ss-web-3.png)
 
-![Desktop - Kontak & Footer](../assets/ss-web/ss-web-4.png)
+![Desktop - Proyek](../assets/ss-web/ss-web-4.png)
 
-![Desktop - Projects Filter Active](../assets/ss-web/ss-web-5.png)
+![Desktop - Kontak](../assets/ss-web/ss-web-5.png)
 
 ---
 
 ## Screenshot: Mobile
 
-![Mobile - Hero & Navigation](../assets/ss-mobile/ss-mobile-1.png)
+![Mobile - Hero](../assets/ss-mobile/ss-mobile-1.png)
 
-![Mobile - Tentang & Skills](../assets/ss-mobile/ss-mobile-2.png)
+![Mobile - Tentang Saya](../assets/ss-mobile/ss-mobile-2.png)
 
-![Mobile - Skills & Proyek](../assets/ss-mobile/ss-mobile-3.png)
+![Mobile - Skills](../assets/ss-mobile/ss-mobile-3.png)
 
-![Mobile - Kontak & Footer](../assets/ss-mobile/ss-mobile-4.png)
+![Mobile - Proyek](../assets/ss-mobile/ss-mobile-4.png)
 
-![Mobile - Hamburger Menu Open](../assets/ss-mobile/ss-mobile-5.png)
+![Mobile - Kontak](../assets/ss-mobile/ss-mobile-5.png)
+
+![Mobile - Hamburger Menu Open](../assets/ss-mobile/ss-mobile-6.png)
 
 ---
 
