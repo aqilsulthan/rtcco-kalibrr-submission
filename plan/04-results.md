@@ -2,9 +2,9 @@
 
 ## Portfolio Info
 - **Nama:** Aqil Sulthan
-- **Repository:** [github.com/aqilsulthan/aqilsulthan.github.io]
-- **Live URL:** [aqilsulthan.github.io]
-- **Date:** [isi tanggal deploy]
+- **Repository:** [github.com/aqilsulthan/rtcco-kalibrr-submission]
+- **Live URL:** [aqilsulthan.github.io/rtcco-kalibrr-submission]
+- **Date:** 4 Mei 2026
 
 ---
 
