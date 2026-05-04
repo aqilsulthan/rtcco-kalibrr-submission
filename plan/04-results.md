@@ -69,5 +69,5 @@
 [x] All sections visible? → ✅ (hero, tentang, skills, proyek, kontak, footer)
 [x] 3+ insights documented? → ✅
 [x] Challenges solved documented? → ✅
-[x] GitHub Pages URL available? → Belum deploy
+[x] GitHub Pages URL available? → ✅
 ```
