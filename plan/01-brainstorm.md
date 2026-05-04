@@ -1,4 +1,4 @@
-# 01: Brainstorm — Aqil Sulthan
+# 01: Brainstorm - Aqil Sulthan
 
 ## Langkah
 
@@ -30,16 +30,16 @@ Output:
 
 ### 2. Lanjutkan Diskusi
 
-- **"Kenapa pilih indigo + cyan?"** — Memberi kesan tech/modern tanpa terlihat seperti template Bootstrap. Indigo memberi otoritas, cyan memberi sentuhan segar.
-- **"Inter vs Poppins?"** — Poppins untuk headings (bold, modern), Inter untuk body text (highly readable di layar).
-- **"Single page vs multi-page?"** — Single page, recruiter bisa scroll semua dalam 1-2 menit.
-- **"Bagaimana beda dari candidate lain?"** — CSS-only filter proyek + hamburger menu tanpa JavaScript, layout semantic murni tanpa satu pun `<div>`.
+- **"Kenapa pilih indigo + cyan?"** - Memberi kesan tech/modern tanpa terlihat seperti template Bootstrap. Indigo memberi otoritas, cyan memberi sentuhan segar.
+- **"Inter vs Poppins?"** - Poppins untuk headings (bold, modern), Inter untuk body text (highly readable di layar).
+- **"Single page vs multi-page?"** - Single page, recruiter bisa scroll semua dalam 1-2 menit.
+- **"Bagaimana beda dari candidate lain?"** - CSS-only filter proyek + hamburger menu tanpa JavaScript, layout semantic murni tanpa satu pun `<div>`.
 
 ---
 
 ## Dokumentasi
 
-### Prompt 1 — Brainstorm Desain
+### Prompt 1 - Brainstorm Desain
 
 ```
 Role: UX/UI consultant untuk portfolio developer.
@@ -53,9 +53,9 @@ Output: 3 palette, typography, section structure, 1 unique element.
 
 ```
 Palette rekomendasi:
-1. Indigo (#6366f1) + Cyan (#06b6d4) + Neutral slate — techy, profesional
-2. Emerald (#10b981) + Navy (#1e293b) — growth, stabil
-3. Rose (#f43f5e) + Warm gray — bold, kreatif
+1. Indigo (#6366f1) + Cyan (#06b6d4) + Neutral slate - techy, profesional
+2. Emerald (#10b981) + Navy (#1e293b) - growth, stabil
+3. Rose (#f43f5e) + Warm gray - bold, kreatif
 
 Typografi:
 - Heading: Poppins (bold, modern, tegas)
@@ -63,12 +63,12 @@ Typografi:
 - Scale: clamp() untuk fluid typography
 
 Section structure:
-1. Hero — nama, title, tagline, 2 CTA
-2. Tentang — foto profil + bio + quote
-3. Skills — 3 kategori card (grid)
-4. Proyek — card grid + filter kategori
-5. Kontak — form + social links
-6. Footer — copyright + links
+1. Hero - nama, title, tagline, 2 CTA
+2. Tentang - foto profil + bio + quote
+3. Skills - 3 kategori card (grid)
+4. Proyek - card grid + filter kategori
+5. Kontak - form + social links
+6. Footer - copyright + links
 
 Unique element: CSS-only filter untuk proyek (radio button hack)
 ```
@@ -77,7 +77,7 @@ Unique element: CSS-only filter untuk proyek (radio button hack)
 
 ---
 
-### Prompt 2 — Detail Warna & Aksesibilitas
+### Prompt 2 - Detail Warna & Aksesibilitas
 
 ```
 Dari opsi yang diberikan, saya pilih palette indigo + cyan.
@@ -95,7 +95,7 @@ Neutral: Dari #f8fafc sampai #0f172a (slate scale)
 
 ---
 
-### Prompt 3 — Validasi Layout
+### Prompt 3 - Validasi Layout
 
 ```
 Review section structure untuk single page portfolio Cloud Engineer.
@@ -124,7 +124,7 @@ Struktur sudah optimal. Saran tambahan:
 | Layout | Single page, 6 sections | Recruiter bisa scan cepat |
 | Style | Glassmorphism nav, gradient hero, card grid | Modern tanpa framework |
 | Unique Element | CSS-only filter proyek (radio hack) | Zero JS, impressive untuk technical role |
-| HTML Approach | Zero `<div>` — semantic elements only | Membuktikan pemahaman HTML semantic |
+| HTML Approach | Zero `<div>` - semantic elements only | Membuktikan pemahaman HTML semantic |
 
 ---
 

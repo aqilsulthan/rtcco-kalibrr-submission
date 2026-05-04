@@ -4,7 +4,7 @@ Portfolio website for Cloud Engineer. Built with semantic HTML5 + CSS3, mobile-f
 
 ## Tech Stack
 
-- HTML5 (semantic elements only — zero `<div>` layout)
+- HTML5 (semantic elements only - zero `<div>` layout)
 - CSS3 (custom properties, Grid, Flexbox, clamp() fluid typography)
 - CSS-only interactions (hamburger menu, project filter, form validation)
 
@@ -28,11 +28,11 @@ Portfolio website for Cloud Engineer. Built with semantic HTML5 + CSS3, mobile-f
 
 ## Key Features
 
-- **Semantic HTML5** — only `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<figure>`, `<blockquote>`, `<footer>`. Zero `<div>` or `<span>` wrappers.
-- **Mobile-first** — responsive from 320px to 1440px+, 3 breakpoints (mobile/tablet/desktop).
-- **CSS-only interactions** — hamburger menu (checkbox hack), project filter (radio button hack), form validation (`:valid`/`:invalid`).
-- **Accessibility** — skip link, aria-label, focus-visible, WCAG contrast >= 4.5:1, prefers-reduced-motion.
-- **Design system** — CSS custom properties for colors, typography scale with `clamp()`, spacing, shadows.
+- **Semantic HTML5** - only `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<figure>`, `<blockquote>`, `<footer>`. Zero `<div>` or `<span>` wrappers.
+- **Mobile-first** - responsive from 320px to 1440px+, 3 breakpoints (mobile/tablet/desktop).
+- **CSS-only interactions** - hamburger menu (checkbox hack), project filter (radio button hack), form validation (`:valid`/`:invalid`).
+- **Accessibility** - skip link, aria-label, focus-visible, WCAG contrast >= 4.5:1, prefers-reduced-motion.
+- **Design system** - CSS custom properties for colors, typography scale with `clamp()`, spacing, shadows.
 
 ## Live Demo
 

@@ -1,19 +1,19 @@
-# 02: Project Details (RTCC-O) — Aqil Sulthan
+# 02: Project Details (RTCC-O) - Aqil Sulthan
 
 ## RTCC-O Template
 
 ```
-## R — Role
+## R - Role
 Senior front-end developer dengan spesialisasi HTML semantik, CSS modern (Grid/Flexbox), dan accessibility.
 
 ---
 
-## T — Task
+## T - Task
 Buat portfolio website satu halaman (single page) untuk Cloud Engineer. Semua interaksi harus CSS-only (zero JavaScript). Konten dalam Bahasa Indonesia.
 
 ---
 
-## C — Context
+## C - Context
 Tech stack, constraints, standards:
 - Tech: HTML5 + CSS3 murni (TANPA framework/library)
 - Approach: Mobile-first, semantic HTML5
@@ -23,7 +23,7 @@ Tech stack, constraints, standards:
 
 ---
 
-## C — Constraints
+## C - Constraints
 Yang TIDAK boleh:
 - ZERO non-semantic `<div>` atau `<span>` untuk layout
 - LARANGAN: JavaScript (semua interaksi CSS-only)
@@ -39,7 +39,7 @@ Yang WAJIB:
 
 ---
 
-## O — Output
+## O - Output
 HTML + CSS terpisah (index.html + style.css). Hanya kode final tanpa penjelasan dalam file. Dokumentasi process terpisah di folder plan/.
 ```
 
@@ -48,9 +48,9 @@ HTML + CSS terpisah (index.html + style.css). Hanya kode final tanpa penjelasan 
 ## Checklist
 
 ```
-[x] R — Role jelas?
-[x] T — Task konkret?
-[x] C — Context mencakup tech stack?
-[x] C — Constraints spesifik?
-[x] O — Output format jelas?
+[x] R - Role jelas?
+[x] T - Task konkret?
+[x] C - Context mencakup tech stack?
+[x] C - Constraints spesifik?
+[x] O - Output format jelas?
 ```

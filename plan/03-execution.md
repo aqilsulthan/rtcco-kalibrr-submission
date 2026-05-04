@@ -1,4 +1,4 @@
-# 03: Execution — Aqil Sulthan
+# 03: Execution - Aqil Sulthan
 
 ## Prinsip
 
@@ -15,11 +15,11 @@ SETIAP STEP:
 ## RTCC-O Checklist (Per Prompt)
 
 ```
-[x] R — Role dispesifikasi?
-[x] T — Task konkret?
-[x] C — Context cukup?
-[x] C — Constraints jelas?
-[x] O — Output format ditentukan?
+[x] R - Role dispesifikasi?
+[x] T - Task konkret?
+[x] C - Context cukup?
+[x] C - Constraints jelas?
+[x] O - Output format ditentukan?
 ```
 
 ---
@@ -48,16 +48,16 @@ O: Hanya kode HTML dalam 1 file index.html.
 HTML semantic lengkap dengan 6 section: hero, tentang, skills, proyek, kontak, footer. Zero `<div>`. Navigasi dengan hamburger checkbox hack. Form kontak dengan label eksplisit. Skip link sebagai elemen pertama. Open Graph + meta tags.
 
 ### Review
-- [✅] Sesuai constraints? — Zero div, semua semantic HTML5
-- [✅] Format sesuai? — 1 file index.html
-- [✅] Bisa dipahami? — Struktur jelas, comments bersih
+- [✅] Sesuai constraints? - Zero div, semua semantic HTML5
+- [✅] Format sesuai? - 1 file index.html
+- [✅] Bisa dipahami? - Struktur jelas, comments bersih
 - Changes: Tambah checkbox hack untuk menu, tambah filter radio inputs
 
 ---
 
 ## Step 2: CSS Global + Hero + Navigation
 
-### Prompt 2a — CSS Global Styles
+### Prompt 2a - CSS Global Styles
 
 ```
 R: CSS architect spesialis design system.
@@ -72,11 +72,11 @@ O: 1 file style.css.
 CSS variables lengkap (warna indigo+cyan, neutral slate, font scale, spacing, shadow, radius). Reset box-sizing. Typography Inter + Poppins. Utility: .section-title (dengan underline gradient), .btn-primary/secondary, .skip-link.
 
 ### Review
-- [✅] Sesuai constraints? — Zero media queries, full variables
-- [✅] Format sesuai? — 1 file
-- [✅] Bisa dipahami? — Terorganisir per section
+- [✅] Sesuai constraints? - Zero media queries, full variables
+- [✅] Format sesuai? - 1 file
+- [✅] Bisa dipahami? - Terorganisir per section
 
-### Prompt 2b — Navigation & Hero
+### Prompt 2b - Navigation & Hero
 
 ```
 R: Front-end developer CSS layout.
@@ -91,15 +91,15 @@ O: Tambahan CSS untuk style.css.
 Sticky header dengan backdrop-filter blur. Hamburger animasi (X rotation via checkbox). Drawer slide-in mobile, horizontal desktop. Hero 100svh, gradient text pada nama, radial gradient background, CTA buttons dengan hover effect.
 
 ### Review
-- [✅] Sesuai constraints? — CSS-only, zero JS
-- [✅] Format sesuai? — Append ke style.css
-- [✅] Bisa dipahami? — Navigasi responsive
+- [✅] Sesuai constraints? - CSS-only, zero JS
+- [✅] Format sesuai? - Append ke style.css
+- [✅] Bisa dipahami? - Navigasi responsive
 
 ---
 
 ## Step 3: Skills + Projects + Contact + Footer + Desktop
 
-### Prompt 3a — About & Skills
+### Prompt 3a - About & Skills
 
 ```
 R: CSS layout specialist.
@@ -118,7 +118,7 @@ About: foto circular clamp(150px, 30vw, 220px) dengan border + shadow, blockquot
 - [✅] Format sesuai?
 - [✅] Bisa dipahami?
 
-### Prompt 3b — Projects (CSS Filter) + Contact + Footer
+### Prompt 3b - Projects (CSS Filter) + Contact + Footer
 
 ```
 R: Front-end developer CSS Grid & component design.
@@ -137,7 +137,7 @@ Filter tabs dengan 4 kategori (Semua, Frontend, Backend, Fullstack). Radio butto
 - [✅] Format sesuai?
 - [✅] Bisa dipahami?
 
-### Prompt 3c — Desktop Enhancement
+### Prompt 3c - Desktop Enhancement
 
 ```
 R: CSS responsive design specialist.
@@ -160,7 +160,7 @@ Semua media queries dirapikan. Projects: 3 kolom grid di desktop. Skills: 2 kolo
 
 ## Step 4: Animations + Accessibility + Content + Final
 
-### Prompt 4a — Animations
+### Prompt 4a - Animations
 
 ```
 R: Front-end developer CSS animation.
@@ -179,7 +179,7 @@ Hero: fadeInUp stagger dengan delay (0s, 0.15s, 0.3s, 0.45s, 0.55s). @keyframes:
 - [✅] Format sesuai?
 - [✅] Bisa dipahami?
 
-### Prompt 4b — Accessibility Audit
+### Prompt 4b - Accessibility Audit
 
 ```
 R: Accessibility specialist.
@@ -198,7 +198,7 @@ Audit selesai. Fix yang diterapkan: nav menu visibility hidden saat closed (remo
 - [✅] Format sesuai?
 - [✅] Bisa dipahami?
 
-### Prompt 4c — Content Personalization
+### Prompt 4c - Content Personalization
 
 Personalize seluruh konten: nama Aqil Sulthan, title Cloud Engineer, skills cloud infrastructure (AWS, Docker, Terraform, dll), 3 proyek (Cloud Health Monitor, AutoDeploy Pipeline, Health Dashboard), social links GitHub/LinkedIn/Email.
 
