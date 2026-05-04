@@ -40,7 +40,7 @@ Yang WAJIB:
 ---
 
 ## O — Output
-HTML + CSS terpisah (index.html + css/style.css). Hanya kode final tanpa penjelasan dalam file. Dokumentasi process terpisah di folder plan/.
+HTML + CSS terpisah (index.html + style.css). Hanya kode final tanpa penjelasan dalam file. Dokumentasi process terpisah di folder plan/.
 ```
 
 ---
